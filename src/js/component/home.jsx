@@ -1,4 +1,7 @@
 import React from "react";
+import Jumbotron from "./jumbotron.jsx";
+
+//include images into your bundle
 // import Mycard from "../..src/js/component/Mycard.jsx/";
 import Mycard from "./Mycard.jsx";
 
@@ -45,7 +48,12 @@ const Home = () => {
 			/>
 		);
 	});
-	return <div className="flex">{cardsContainer}</div>;
+	return (
+		<div>
+			<Jumbotron />
+			<div className="flex">{cardsContainer}</div>
+		</div>
+	);
 };
 
 export default Home;
