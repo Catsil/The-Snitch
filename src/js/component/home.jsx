@@ -1,15 +1,13 @@
 import React from "react";
-import MyNavBar from "./MyNavBar.jsx";
+import Jumbotron from "./jumbotron.jsx";
+
+//include images into your bundle
+
 //create your first component
 const Home = () => {
 	return (
 		<div>
-			<MyNavBar
-				buttonOne="Home"
-				buttonTwo="About"
-				buttonThree="Services"
-				buttonFour="Contact"
-			/>
+			<Jumbotron />
 		</div>
 	);
 };
