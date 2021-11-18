@@ -9,9 +9,7 @@ const Jumbotron = () => {
 			<p className="lead">
 				Los lugares mas interesantes para visitar en Madrid.
 			</p>
-			{/* <hr className="my-2" />
-			<p>Vamos a dar un paseo por esta bella ciudad.</p>
-			<Button color="primary">Learn More</Button> */}
+
 			<Carousel className="carru">
 				<Carousel.Item>
 					<img

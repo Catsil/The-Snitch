@@ -4,6 +4,7 @@ import Jumbotron from "./jumbotron.jsx";
 //include images into your bundle
 // import Mycard from "../..src/js/component/Mycard.jsx/";
 import Mycard from "./Mycard.jsx";
+import MyNavbar from "./MyNavBar.jsx";
 
 const CARDINFO = [
 	//array con objetos
@@ -50,6 +51,12 @@ const Home = () => {
 	});
 	return (
 		<div>
+			<MyNavbar
+				buttonOne="Home"
+				buttonTwo="About"
+				buttonThree="Services"
+				buttonFour="Contact"
+			/>
 			<Jumbotron />
 			<div className="flex">{cardsContainer}</div>
 		</div>

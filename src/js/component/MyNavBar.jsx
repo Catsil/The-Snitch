@@ -8,10 +8,10 @@ import PropTypes from "prop-types";
 
 const MyNavBar = props => {
 	return (
-		<Navbar bg="dark" variant="dark">
+		<Navbar classname="nav" bg="dark" variant="dark">
 			<Container fluid>
 				<Navbar.Brand href="#startbootstrap">
-					Start Bootstrap
+					The Snitch Madrid
 				</Navbar.Brand>
 				<Nav className="me-right">
 					<Nav.Link href="#home">{props.buttonOne}</Nav.Link>
